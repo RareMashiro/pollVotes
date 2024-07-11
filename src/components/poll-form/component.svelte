@@ -28,14 +28,14 @@
 
         if(fields.answerA.trim().length < 1) {
             valid = false;
-            errors.answerA = 'Question must be at least 1 characters long';
+            errors.answerA = 'Answer must be at least 1 characters long';
         } else {
             errors.answerA = '';
         }
 
         if(fields.answerB.trim().length < 1) {
             valid = false;
-            errors.answerB = 'Question must be at least 1 characters long';
+            errors.answerB = 'Answer must be at least 1 characters long';
         } else {
             errors.answerB = '';
         }
